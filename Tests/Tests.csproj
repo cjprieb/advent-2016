@@ -52,6 +52,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Day10_BalanceBotsTests.cs" />
     <Compile Include="Day1_StreetNavigationTests.cs" />
     <Compile Include="Day2_BathroomCodeTests.cs" />
     <Compile Include="Day3_TrianglesTests.cs" />
@@ -103,6 +104,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Day9_Input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Day10_Input.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

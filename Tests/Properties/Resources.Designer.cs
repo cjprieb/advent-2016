@@ -70,6 +70,25 @@ namespace Tests.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to bot 123 gives low to bot 191 and high to bot 162
+        ///bot 191 gives low to output 9 and high to bot 192
+        ///bot 182 gives low to bot 175 and high to bot 196
+        ///bot 113 gives low to bot 172 and high to bot 94
+        ///bot 78 gives low to bot 37 and high to bot 25
+        ///bot 187 gives low to bot 125 and high to bot 45
+        ///bot 71 gives low to bot 108 and high to bot 61
+        ///bot 154 gives low to bot 2 and high to bot 64
+        ///bot 142 gives low to bot 110 and high to bot 163
+        ///bot 109 gives low to output 0 and high to bot 43
+        ///bot 198 gives low to  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day10_Input {
+            get {
+                return ResourceManager.GetString("Day10_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LRRLLLRDRURUDLRDDURULRULLDLRRLRLDULUDDDDLLRRLDUUDULDRURRLDULRRULDLRDUDLRLLLULDUURRRRURURULURRULRURDLULURDRDURDRLRRUUDRULLLLLDRULDDLLRDLURRLDUURDLRLUDLDUDLURLRLDRLUDUULRRRUUULLRDURUDRUDRDRLLDLDDDLDLRRULDUUDULRUDDRLLURDDRLDDUDLLLLULRDDUDDUUULRULUULRLLDULUDLLLLURRLDLUDLDDLDRLRRDRDUDDDLLLLLRRLLRLUDLULLDLDDRRUDDRLRDDURRDULLLURLRDLRRLRDLDURLDDULLLDRRURDULUDUDLLLDDDLLRLDDDLLRRLLURUULULDDDUDULUUURRUUDLDULULDRDDLURURDLDLULDUDUDDDDD
         ///RUURUDRDUULRDDLRLLLULLDDUDRDURDLRUULLLLUDUDRRUDUULRRUUDDURDDDLLLLRRUURULULLUDDLRDUDU [rest of string was truncated]&quot;;.
         /// </summary>
