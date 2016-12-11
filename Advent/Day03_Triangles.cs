@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Advent
 {
-    public class Day3_Triangles
+    public class Day03_Triangles
     {
         public static int CountValidTriangles(string[] triangles)
         {

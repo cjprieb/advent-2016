@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Advent.Tests
 {
     [TestClass]
-    public class Day5_Md5HashTests
+    public class Day05_Md5HashTests
     {
         [TestMethod]
         public void Test_GeneratePassword()
@@ -13,7 +13,7 @@ namespace Advent.Tests
             string input = "abc";
 
             //Action
-            string password = Day5_Md5Hash.GeneratePassword(input);
+            string password = Day05_Md5Hash.GeneratePassword(input);
 
             //Assert
             Assert.AreEqual("18f47a30", password, "Password mismtach");
@@ -26,7 +26,7 @@ namespace Advent.Tests
             string input = "ugkcyxxp";
 
             //Action
-            string password = Day5_Md5Hash.GeneratePassword(input);
+            string password = Day05_Md5Hash.GeneratePassword(input);
 
             //Assert
             Console.WriteLine($"Password is [{password}]");
@@ -39,7 +39,7 @@ namespace Advent.Tests
             string input = "abc";
 
             //Action
-            string password = Day5_Md5Hash.GeneratePositionalPassword(input);
+            string password = Day05_Md5Hash.GeneratePositionalPassword(input);
 
             //Assert
             Assert.AreEqual("05ace8e3", password, "Password mismtach");
@@ -52,7 +52,7 @@ namespace Advent.Tests
             string input = "ugkcyxxp";
 
             //Action
-            string password = Day5_Md5Hash.GeneratePositionalPassword(input);
+            string password = Day05_Md5Hash.GeneratePositionalPassword(input);
 
             //Assert
             Console.WriteLine($"New password is [{password}]");

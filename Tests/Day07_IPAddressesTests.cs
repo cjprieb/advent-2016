@@ -10,7 +10,7 @@ using Tests.Properties;
 namespace Advent.Tests
 {
     [TestClass]
-    public class Day7_IPAddressesTests
+    public class Day07_IPAddressesTests
     {
         [TestMethod]
         public void Test_IsValidIpAddress_abba()
@@ -19,7 +19,7 @@ namespace Advent.Tests
             string input = "abba[mnop]qrst";
 
             //Action
-            bool result = Day7_IPAddresses.HasTlsSupport(input);
+            bool result = Day07_IPAddresses.HasTlsSupport(input);
 
             //Assert
             Assert.IsTrue(result);
@@ -32,7 +32,7 @@ namespace Advent.Tests
             string input = "abcd[bddb]xyyx";
 
             //Action
-            bool result = Day7_IPAddresses.HasTlsSupport(input);
+            bool result = Day07_IPAddresses.HasTlsSupport(input);
 
             //Assert
             Assert.IsFalse(result);
@@ -45,7 +45,7 @@ namespace Advent.Tests
             string input = "aaaa[qwer]tyui";
 
             //Action
-            bool result = Day7_IPAddresses.HasTlsSupport(input);
+            bool result = Day07_IPAddresses.HasTlsSupport(input);
 
             //Assert
             Assert.IsFalse(result);
@@ -58,7 +58,7 @@ namespace Advent.Tests
             string input = "ioxxoj[asdfgh]zxcvbn";
 
             //Action
-            bool result = Day7_IPAddresses.HasTlsSupport(input);
+            bool result = Day07_IPAddresses.HasTlsSupport(input);
 
             //Assert
             Assert.IsTrue(result);
@@ -68,10 +68,10 @@ namespace Advent.Tests
         public void Answer1_IsValidIpAddress()
         {
             //Setup
-            string[] input = Resources.Day7_Input.Split('\n');
+            string[] input = Resources.Day07_Input.Split('\n');
 
             //Action
-            int count = Day7_IPAddresses.CountIpAddressesWithTslSupport(input);
+            int count = Day07_IPAddresses.CountIpAddressesWithTslSupport(input);
 
             //Assert
             Console.WriteLine($"There are [{count}] IP addresses that support TSL in the list.");
@@ -85,7 +85,7 @@ namespace Advent.Tests
             string input = "aba[bab]xyz";
 
             //Action
-            bool result = Day7_IPAddresses.HasSslSupports(input);
+            bool result = Day07_IPAddresses.HasSslSupports(input);
 
             //Assert
             Assert.IsTrue(result);
@@ -98,7 +98,7 @@ namespace Advent.Tests
             string input = "xyx[xyx]xyx";
 
             //Action
-            bool result = Day7_IPAddresses.HasSslSupports(input);
+            bool result = Day07_IPAddresses.HasSslSupports(input);
 
             //Assert
             Assert.IsFalse(result);
@@ -111,7 +111,7 @@ namespace Advent.Tests
             string input = "aaa[kek]eke";
 
             //Action
-            bool result = Day7_IPAddresses.HasSslSupports(input);
+            bool result = Day07_IPAddresses.HasSslSupports(input);
 
             //Assert
             Assert.IsTrue(result);
@@ -124,7 +124,7 @@ namespace Advent.Tests
             string input = "zazbz[bzb]cdb";
 
             //Action
-            bool result = Day7_IPAddresses.HasSslSupports(input);
+            bool result = Day07_IPAddresses.HasSslSupports(input);
 
             //Assert
             Assert.IsTrue(result);
@@ -134,10 +134,10 @@ namespace Advent.Tests
         public void Answer2_SupportsSsl()
         {
             //Setup
-            string[] input = Resources.Day7_Input.Split('\n');
+            string[] input = Resources.Day07_Input.Split('\n');
 
             //Action
-            int count = Day7_IPAddresses.CountIpAddressesThatSupportSsl(input);
+            int count = Day07_IPAddresses.CountIpAddressesThatSupportSsl(input);
 
             //Assert
             Console.WriteLine($"There are [{count}] IP addresses that support SSL in the list.");

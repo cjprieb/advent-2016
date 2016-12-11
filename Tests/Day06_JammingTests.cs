@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tests.Properties;
-using static Advent.Day6_Jamming;
+using static Advent.Day06_Jamming;
 
 namespace Advent.Tests
 {
     [TestClass]
-    public class Day6_JammingTests
+    public class Day06_JammingTests
     {
         [TestMethod]
         public void Test_ExtractErrorFreeMessage()
@@ -32,7 +32,7 @@ namespace Advent.Tests
             };
 
             //Action
-            string message = Day6_Jamming.ExtractErrorFreeMessage(input);
+            string message = Day06_Jamming.ExtractErrorFreeMessage(input);
 
             //Assert
             Assert.AreEqual("easter", message, "message mismatch");
@@ -42,10 +42,10 @@ namespace Advent.Tests
         public void Answer1_ExtractErrorFreeMessage()
         {
             //Setup
-            string[] input = Resources.Day6_Input.Split('\n');
+            string[] input = Resources.Day06_Input.Split('\n');
 
             //Action
-            string message = Day6_Jamming.ExtractErrorFreeMessage(input);
+            string message = Day06_Jamming.ExtractErrorFreeMessage(input);
 
             //Assert
             Console.WriteLine($"Decoded message from Santa is [{message}]");
@@ -75,7 +75,7 @@ namespace Advent.Tests
             };
 
             //Action
-            string message = Day6_Jamming.ExtractErrorFreeMessage(input, RepetitionCodeType.LeastLikely);
+            string message = Day06_Jamming.ExtractErrorFreeMessage(input, RepetitionCodeType.LeastLikely);
 
             //Assert
             Assert.AreEqual("advent", message, "message mismatch");
@@ -85,10 +85,10 @@ namespace Advent.Tests
         public void Answer2_ExtractErrorFreeMessage_Modified()
         {
             //Setup
-            string[] input = Resources.Day6_Input.Split('\n');
+            string[] input = Resources.Day06_Input.Split('\n');
 
             //Action
-            string message = Day6_Jamming.ExtractErrorFreeMessage(input, RepetitionCodeType.LeastLikely);
+            string message = Day06_Jamming.ExtractErrorFreeMessage(input, RepetitionCodeType.LeastLikely);
 
             //Assert
             Console.WriteLine($"Decoded message from Santa is [{message}]");

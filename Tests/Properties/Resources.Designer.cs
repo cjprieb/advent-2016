@@ -63,28 +63,9 @@ namespace Tests.Properties {
         /// <summary>
         ///   Looks up a localized string similar to R1, R3, L2, L5, L2, L1, R3, L4, R2, L2, L4, R2, L1, R1, L2, R3, L1, L4, R2, L5, R3, R4, L1, R2, L1, R3, L4, R5, L4, L5, R5, L3, R2, L3, L3, R1, R3, L4, R2, R5, L4, R1, L1, L1, R5, L2, R1, L2, R188, L5, L3, R5, R1, L2, L4, R3, R5, L3, R3, R45, L4, R4, R72, R2, R3, L1, R1, L1, L1, R192, L1, L1, L1, L4, R1, L2, L5, L3, R5, L3, R3, L4, L3, R1, R4, L2, R2, R3, L5, R3, L1, R1, R4, L2, L3, R1, R3, L4, L3, L4, L2, L2, R1, R3, L5, L1, R4, R2, L4, L1, R3, R3, R1, L5, L2, R4, R4, R2, R1, R5, R5, L4, L1, R5, R3, R4, R5 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day1_Input {
+        internal static string Day01_Input {
             get {
-                return ResourceManager.GetString("Day1_Input", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to bot 123 gives low to bot 191 and high to bot 162
-        ///bot 191 gives low to output 9 and high to bot 192
-        ///bot 182 gives low to bot 175 and high to bot 196
-        ///bot 113 gives low to bot 172 and high to bot 94
-        ///bot 78 gives low to bot 37 and high to bot 25
-        ///bot 187 gives low to bot 125 and high to bot 45
-        ///bot 71 gives low to bot 108 and high to bot 61
-        ///bot 154 gives low to bot 2 and high to bot 64
-        ///bot 142 gives low to bot 110 and high to bot 163
-        ///bot 109 gives low to output 0 and high to bot 43
-        ///bot 198 gives low to  [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string Day10_Input {
-            get {
-                return ResourceManager.GetString("Day10_Input", resourceCulture);
+                return ResourceManager.GetString("Day01_Input", resourceCulture);
             }
         }
         
@@ -92,9 +73,9 @@ namespace Tests.Properties {
         ///   Looks up a localized string similar to LRRLLLRDRURUDLRDDURULRULLDLRRLRLDULUDDDDLLRRLDUUDULDRURRLDULRRULDLRDUDLRLLLULDUURRRRURURULURRULRURDLULURDRDURDRLRRUUDRULLLLLDRULDDLLRDLURRLDUURDLRLUDLDUDLURLRLDRLUDUULRRRUUULLRDURUDRUDRDRLLDLDDDLDLRRULDUUDULRUDDRLLURDDRLDDUDLLLLULRDDUDDUUULRULUULRLLDULUDLLLLURRLDLUDLDDLDRLRRDRDUDDDLLLLLRRLLRLUDLULLDLDDRRUDDRLRDDURRDULLLURLRDLRRLRDLDURLDDULLLDRRURDULUDUDLLLDDDLLRLDDDLLRRLLURUULULDDDUDULUUURRUUDLDULULDRDDLURURDLDLULDUDUDDDDD
         ///RUURUDRDUULRDDLRLLLULLDDUDRDURDLRUULLLLUDUDRRUDUULRRUUDDURDDDLLLLRRUURULULLUDDLRDUDU [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day2_Input {
+        internal static string Day02_Input {
             get {
-                return ResourceManager.GetString("Day2_Input", resourceCulture);
+                return ResourceManager.GetString("Day02_Input", resourceCulture);
             }
         }
         
@@ -131,9 +112,9 @@ namespace Tests.Properties {
         ///  609  535  604
         ///   [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day3_Input {
+        internal static string Day03_Input {
             get {
-                return ResourceManager.GetString("Day3_Input", resourceCulture);
+                return ResourceManager.GetString("Day03_Input", resourceCulture);
             }
         }
         
@@ -151,9 +132,9 @@ namespace Tests.Properties {
         ///vdzonmhydc-bzmcx-bnzshmf-zbpthrhshnm-235[znyot]
         ///oxaflxzqfsb-mi [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day4_Input {
+        internal static string Day04_Input {
             get {
-                return ResourceManager.GetString("Day4_Input", resourceCulture);
+                return ResourceManager.GetString("Day04_Input", resourceCulture);
             }
         }
         
@@ -211,9 +192,9 @@ namespace Tests.Properties {
         ///teihcctv
         ///ow [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day6_Input {
+        internal static string Day06_Input {
             get {
-                return ResourceManager.GetString("Day6_Input", resourceCulture);
+                return ResourceManager.GetString("Day06_Input", resourceCulture);
             }
         }
         
@@ -225,9 +206,9 @@ namespace Tests.Properties {
         ///txxplravpgztjqcw[txgmmtlhmqpmmwp]bmhfgpmafxqwtrpr[inntmjmgqothdzfqgxq]cvtwvembpvdmcvk
         ///gkxjhpayoyrrpcr[mwyoahlkqyhtznyzrm]mvmurvsrgjunjjepn[mkoumuoh [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day7_Input {
+        internal static string Day07_Input {
             get {
-                return ResourceManager.GetString("Day7_Input", resourceCulture);
+                return ResourceManager.GetString("Day07_Input", resourceCulture);
             }
         }
         
@@ -265,18 +246,37 @@ namespace Tests.Properties {
         ///rotate column x=13 by 1
         ///rot [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day8_Input {
+        internal static string Day08_Input {
             get {
-                return ResourceManager.GetString("Day8_Input", resourceCulture);
+                return ResourceManager.GetString("Day08_Input", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to (106x9)(9x11)XRTHYQJRI(16x7)PQFHWDDUNODSQZFA(3x14)UTS(46x5)(11x2)ZPIAOZZMWEI(4x15)SDLK(12x10)BUQRPYWOFRHL(3x2)IUD(376x15)(56x2)(2x8)HN(8x6)EMTIYSST(29x14)UMUBTFMGRIFIJMVOFTRZJBYZKRZTR(72x7)(15x14)AIEJQAVGCXESYMW(33x11)BOGWCYAIJENVPIZOHXMHVSICYNVYYOYSQ(5x4)LNSRH(121x10)(35x11)ORVPLTOAYEYSFLWFTVMEKGERUMSXJEQGTWZ(3x10)NAG(10x11)OUJQJHTAYV(33x6)GHVYZOGPXXWXXWQOTKASZXBTKSWGYIDHJ(8x12)TXOGOMWU(31x13)(24x12)GKJSZHQTICHXVETPQMHLIKZD(62x12)(11x5)DAGFHJAOZEC(7x13)TLJQCQX(6x9)QEYKQQ(14x15)IBMGNTVYJNFYMG(6x2)WFGDKTVLSH [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day9_Input {
+        internal static string Day09_Input {
             get {
-                return ResourceManager.GetString("Day9_Input", resourceCulture);
+                return ResourceManager.GetString("Day09_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to bot 123 gives low to bot 191 and high to bot 162
+        ///bot 191 gives low to output 9 and high to bot 192
+        ///bot 182 gives low to bot 175 and high to bot 196
+        ///bot 113 gives low to bot 172 and high to bot 94
+        ///bot 78 gives low to bot 37 and high to bot 25
+        ///bot 187 gives low to bot 125 and high to bot 45
+        ///bot 71 gives low to bot 108 and high to bot 61
+        ///bot 154 gives low to bot 2 and high to bot 64
+        ///bot 142 gives low to bot 110 and high to bot 163
+        ///bot 109 gives low to output 0 and high to bot 43
+        ///bot 198 gives low to  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day10_Input {
+            get {
+                return ResourceManager.GetString("Day10_Input", resourceCulture);
             }
         }
     }

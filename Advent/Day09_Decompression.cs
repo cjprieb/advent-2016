@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace Advent
 {
-    public class Day9_Decompression
+    public class Day09_Decompression
     {
         static Regex _MarkerPattern = new Regex(@"\((\d+)x(\d+)\)");
 

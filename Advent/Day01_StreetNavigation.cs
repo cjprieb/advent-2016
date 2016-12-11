@@ -5,7 +5,7 @@ using Advent.Directions;
 
 namespace Advent
 {
-    public class Day1_StreetNavigation
+    public class Day01_StreetNavigation
     {
         public static BlockPosition GetLocation(string[] directions)
         {

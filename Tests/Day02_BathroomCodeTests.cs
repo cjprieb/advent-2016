@@ -10,7 +10,7 @@ using Tests.Properties;
 namespace Advent.Tests
 {
     [TestClass]
-    public class Day2_BathroomCodeTests
+    public class Day02_BathroomCodeTests
     {
         [TestMethod]
         public void Test_ParseInstructions()
@@ -25,7 +25,7 @@ namespace Advent.Tests
             };
 
             //Action
-            string code = Day2_BathroomCode.ParseInstructions(instructions);
+            string code = Day02_BathroomCode.ParseInstructions(instructions);
 
             //Assert
             Assert.AreEqual("1985", code, "Code mismatch");
@@ -35,10 +35,10 @@ namespace Advent.Tests
         public void Answer1_ParseInstructions()
         {
             //Setup
-            string[] instructions = ParseFile(Resources.Day2_Input);
+            string[] instructions = ParseFile(Resources.Day02_Input);
 
             //Action
-            string code = Day2_BathroomCode.ParseInstructions(instructions);
+            string code = Day02_BathroomCode.ParseInstructions(instructions);
 
             //Assert
             Console.WriteLine($"The code to the bathroom is [{code}].");
@@ -57,7 +57,7 @@ namespace Advent.Tests
             };
 
             //Action
-            string code = Day2_BathroomCode.ParseInstructions_Part2(instructions);
+            string code = Day02_BathroomCode.ParseInstructions_Part2(instructions);
 
             //Assert
             Assert.AreEqual("5DB3", code, "Code mismatch");
@@ -67,10 +67,10 @@ namespace Advent.Tests
         public void Answer2_ParseInstructions()
         {
             //Setup
-            string[] instructions = ParseFile(Resources.Day2_Input);
+            string[] instructions = ParseFile(Resources.Day02_Input);
 
             //Action
-            string code = Day2_BathroomCode.ParseInstructions_Part2(instructions);
+            string code = Day02_BathroomCode.ParseInstructions_Part2(instructions);
 
             //Assert
             Console.WriteLine($"The real code to the bathroom with the improved code pad is [{code}].");

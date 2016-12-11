@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Advent
 {
-    public class Day7_IPAddresses
+    public class Day07_IPAddresses
     {
         public static int CountIpAddressesWithTslSupport(string[] input)
         {

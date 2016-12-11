@@ -5,7 +5,7 @@ using Tests.Properties;
 namespace Advent.Tests
 {
     [TestClass]
-    public class Day3_TrianglesTests
+    public class Day03_TrianglesTests
     {
         [TestMethod]
         public void Test_IsValidTriangle_354()
@@ -14,7 +14,7 @@ namespace Advent.Tests
             int[] triangle = { 3, 5, 4 };
 
             //Action
-            bool isValid = Day3_Triangles.IsValidTriangle(triangle);
+            bool isValid = Day03_Triangles.IsValidTriangle(triangle);
 
             //Assert
             Assert.IsTrue(isValid, $"{triangle} should be a triangle");
@@ -27,7 +27,7 @@ namespace Advent.Tests
             int[] triangle = { 5, 10, 25 };
 
             //Action
-            bool isValid = Day3_Triangles.IsValidTriangle(triangle);
+            bool isValid = Day03_Triangles.IsValidTriangle(triangle);
 
             //Assert
             Assert.IsFalse(isValid, $"{triangle} shouldn't be a triangle");
@@ -40,7 +40,7 @@ namespace Advent.Tests
             int[] triangle = { 5, 10, 0 };
 
             //Action
-            bool isValid = Day3_Triangles.IsValidTriangle(triangle);
+            bool isValid = Day03_Triangles.IsValidTriangle(triangle);
 
             //Assert
             Assert.IsFalse(isValid, $"{triangle} shouldn't be a triangle");
@@ -53,7 +53,7 @@ namespace Advent.Tests
             int[] triangle = { 15, 10, 5 };
 
             //Action
-            bool isValid = Day3_Triangles.IsValidTriangle(triangle);
+            bool isValid = Day03_Triangles.IsValidTriangle(triangle);
 
             //Assert
             Assert.IsFalse(isValid, $"{triangle} shouldn't be a triangle");
@@ -71,7 +71,7 @@ namespace Advent.Tests
             };
 
             //Action
-            int validCount = Day3_Triangles.CountValidTriangles(input);
+            int validCount = Day03_Triangles.CountValidTriangles(input);
 
             //Assert
             Assert.AreEqual(3, validCount, "mismatch count");
@@ -81,10 +81,10 @@ namespace Advent.Tests
         public void Answer_CountValidTriangles()
         {
             //Setup
-            string[] input = Resources.Day3_Input.Split('\n');
+            string[] input = Resources.Day03_Input.Split('\n');
 
             //Action
-            int validCount = Day3_Triangles.CountValidTriangles(input);
+            int validCount = Day03_Triangles.CountValidTriangles(input);
 
             //Assert
             Console.WriteLine($"There are [{validCount}] valid triangles on the walls.");
@@ -105,7 +105,7 @@ namespace Advent.Tests
             };
 
             //Action
-            int validCount = Day3_Triangles.CountValidVerticalTriangles(input);
+            int validCount = Day03_Triangles.CountValidVerticalTriangles(input);
 
             //Assert
             Assert.AreEqual(6, validCount, "mismatch count");
@@ -115,10 +115,10 @@ namespace Advent.Tests
         public void Answer_CountValidVerticalTriangles()
         {
             //Setup
-            string[] input = Resources.Day3_Input.Split('\n');
+            string[] input = Resources.Day03_Input.Split('\n');
 
             //Action
-            int validCount = Day3_Triangles.CountValidVerticalTriangles(input);
+            int validCount = Day03_Triangles.CountValidVerticalTriangles(input);
 
             //Assert
             Console.WriteLine($"There are [{validCount}] valid triangles on the walls.");

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Advent
 {
-    public class Day8_TwoFactorAuthentication
+    public class Day08_TwoFactorAuthentication
     {
         public class ScreenPainter
         {

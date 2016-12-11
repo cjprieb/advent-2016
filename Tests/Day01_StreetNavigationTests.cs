@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tests.Properties;
-using static Advent.Day1_StreetNavigation;
+using static Advent.Day01_StreetNavigation;
 
 namespace Advent.Tests
 {
     [TestClass]
-    public class Day1_StreetNavigationTests
+    public class Day01_StreetNavigationTests
     {
         [TestMethod]
         public void Test_BlocksAway_R2L3()
@@ -54,7 +54,7 @@ namespace Advent.Tests
         public void Answer1_BlocksAway()
         {
             //Setup
-            string input = Resources.Day1_Input;
+            string input = Resources.Day01_Input;
             string[] inputAsList = ParseInput(input);
 
             //Action
@@ -83,7 +83,7 @@ namespace Advent.Tests
         public void Answer2_PlacesVisited()
         {
             //Setup
-            string input = Resources.Day1_Input;
+            string input = Resources.Day01_Input;
             string[] inputAsList = ParseInput(input);
 
             //Action

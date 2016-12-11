@@ -3,7 +3,7 @@ using Advent.Directions;
 
 namespace Advent
 {
-    public class Day2_BathroomCode
+    public class Day02_BathroomCode
     {
         private static string[][] _NormalCodePad =
         {
@@ -23,13 +23,13 @@ namespace Advent
 
         public static string ParseInstructions(string[] instructions)
         {
-            Day2_BathroomCode codeParser = new Day2_BathroomCode(new Point(1, 1), _NormalCodePad, instructions);
+            Day02_BathroomCode codeParser = new Day02_BathroomCode(new Point(1, 1), _NormalCodePad, instructions);
             return codeParser._CodeBuilder.ToString();
         }
 
         public static string ParseInstructions_Part2(string[] instructions)
         {
-            Day2_BathroomCode codeParser = new Day2_BathroomCode(new Point(0, 2), _ImprovedCodePad, instructions);
+            Day02_BathroomCode codeParser = new Day02_BathroomCode(new Point(0, 2), _ImprovedCodePad, instructions);
             return codeParser._CodeBuilder.ToString();
         }
 
@@ -37,7 +37,7 @@ namespace Advent
         private Point _CurrentPosition;
         private StringBuilder _CodeBuilder = new StringBuilder();
 
-        public Day2_BathroomCode(Point startingPoint, string[][] codepad, string[] instructions)
+        public Day02_BathroomCode(Point startingPoint, string[][] codepad, string[] instructions)
         {
             _CurrentPosition = startingPoint;
             _CodePad = codepad;

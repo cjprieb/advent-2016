@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tests.Properties;
-using static Advent.Day4_RoomDirectory;
+using static Advent.Day04_RoomDirectory;
 
 namespace Advent.Tests
 {
     [TestClass()]
-    public class Day4_RoomDirectoryTests
+    public class Day04_RoomDirectoryTests
     {
         [TestMethod]
         public void Test_SumOfValidRoomIds()
@@ -22,7 +22,7 @@ namespace Advent.Tests
             };
 
             //Action
-            int sum = Day4_RoomDirectory.SumOfValidRoomIds(input);
+            int sum = Day04_RoomDirectory.SumOfValidRoomIds(input);
 
             //Assert
             Assert.AreEqual(1514, sum, "Sum mismatch");
@@ -36,7 +36,7 @@ namespace Advent.Tests
             string checksum = "abxyz";
 
             //Action
-            bool isValid = Day4_RoomDirectory.IsValidRoom(input, checksum);
+            bool isValid = Day04_RoomDirectory.IsValidRoom(input, checksum);
 
             //Assert
             Assert.IsTrue(isValid, $"{input} did not match {checksum}");
@@ -50,7 +50,7 @@ namespace Advent.Tests
             string checksum = "abcde";
 
             //Action
-            bool isValid = Day4_RoomDirectory.IsValidRoom(input, checksum);
+            bool isValid = Day04_RoomDirectory.IsValidRoom(input, checksum);
 
             //Assert
             Assert.IsTrue(isValid, $"{input} did not match {checksum}");
@@ -64,7 +64,7 @@ namespace Advent.Tests
             string checksum = "oarel";
 
             //Action
-            bool isValid = Day4_RoomDirectory.IsValidRoom(input, checksum);
+            bool isValid = Day04_RoomDirectory.IsValidRoom(input, checksum);
 
             //Assert
             Assert.IsTrue(isValid, $"{input} did not match {checksum}");
@@ -78,7 +78,7 @@ namespace Advent.Tests
             string checksum = "decoy";
 
             //Action
-            bool isValid = Day4_RoomDirectory.IsValidRoom(input, checksum);
+            bool isValid = Day04_RoomDirectory.IsValidRoom(input, checksum);
 
             //Assert
             Assert.IsFalse(isValid, $"{input} wrongly matched {checksum}");
@@ -88,10 +88,10 @@ namespace Advent.Tests
         public void Answer1_SumOfValidRoomIds()
         {
             //Setup
-            string[] input = Resources.Day4_Input.Split('\n');
+            string[] input = Resources.Day04_Input.Split('\n');
 
             //Action
-            int sum = Day4_RoomDirectory.SumOfValidRoomIds(input);
+            int sum = Day04_RoomDirectory.SumOfValidRoomIds(input);
 
             //Assert
             Console.WriteLine($"The sum of the sector IDs of valid rooms is [{sum}]");
@@ -106,7 +106,7 @@ namespace Advent.Tests
             int rotation = 343;
 
             //Action
-            string decryptedName = Day4_RoomDirectory.DecryptName(input, rotation);
+            string decryptedName = Day04_RoomDirectory.DecryptName(input, rotation);
 
             //Assert
             Assert.AreEqual("very encrypted name", decryptedName, $"decryption mismatch");
@@ -116,11 +116,11 @@ namespace Advent.Tests
         public void Answer2_FindRoom()
         {
             //Setup
-            string[] input = Resources.Day4_Input.Split('\n');
+            string[] input = Resources.Day04_Input.Split('\n');
             string searchString = "north pole";
 
             //Action
-            List<Room> matchingRooms = Day4_RoomDirectory.FindRooms(input, searchString);
+            List<Room> matchingRooms = Day04_RoomDirectory.FindRooms(input, searchString);
 
             //Assert
             Assert.AreEqual(1, matchingRooms.Count, "count mismatch");

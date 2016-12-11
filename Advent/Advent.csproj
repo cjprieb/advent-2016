@@ -44,16 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day10_BalanceBots.cs" />
-    <Compile Include="Day2_BathroomCode.cs" />
-    <Compile Include="Day3_Triangles.cs" />
-    <Compile Include="Day4_RoomDirectory.cs" />
-    <Compile Include="Day5_Md5Hash.cs" />
-    <Compile Include="Day6_Jamming.cs" />
-    <Compile Include="Day7_IPAddresses.cs" />
-    <Compile Include="Day8_TwoFactorAuthentication.cs" />
-    <Compile Include="Day9_Decompression.cs" />
+    <Compile Include="Day02_BathroomCode.cs" />
+    <Compile Include="Day03_Triangles.cs" />
+    <Compile Include="Day04_RoomDirectory.cs" />
+    <Compile Include="Day05_Md5Hash.cs" />
+    <Compile Include="Day06_Jamming.cs" />
+    <Compile Include="Day07_IPAddresses.cs" />
+    <Compile Include="Day08_TwoFactorAuthentication.cs" />
+    <Compile Include="Day09_Decompression.cs" />
     <Compile Include="Models\Directions.cs" />
-    <Compile Include="Day1_StreetNavigation.cs" />
+    <Compile Include="Day01_StreetNavigation.cs" />
     <Compile Include="Models\Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

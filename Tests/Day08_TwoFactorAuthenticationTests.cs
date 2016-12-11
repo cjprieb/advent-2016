@@ -1,12 +1,12 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tests.Properties;
-using static Advent.Day8_TwoFactorAuthentication;
+using static Advent.Day08_TwoFactorAuthentication;
 
 namespace Advent.Tests
 {
     [TestClass]
-    public class Day8_TwoFactorAuthenticationTests
+    public class Day08_TwoFactorAuthenticationTests
     {
 
         [TestMethod]
@@ -152,7 +152,7 @@ namespace Advent.Tests
         {
             //Setup
             ScreenPainter painter = new ScreenPainter(50, 6);
-            string[] instructions = Resources.Day8_Input.Split('\n');
+            string[] instructions = Resources.Day08_Input.Split('\n');
 
             //Action
             painter.ParseInstructions(instructions);

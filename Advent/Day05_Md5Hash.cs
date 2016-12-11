@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Advent
 {
-    public class Day5_Md5Hash
+    public class Day05_Md5Hash
     {
         public class PasswordGenerator
         {

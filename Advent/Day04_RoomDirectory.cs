@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Advent
 {
-    public class Day4_RoomDirectory
+    public class Day04_RoomDirectory
     {
         public static int SumOfValidRoomIds(string[] input)
         {

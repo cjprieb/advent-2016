@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Advent
 {
-    public class Day6_Jamming
+    public class Day06_Jamming
     {
         public enum RepetitionCodeType
         {
