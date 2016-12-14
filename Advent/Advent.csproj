@@ -52,6 +52,9 @@
     <Compile Include="Day07_IPAddresses.cs" />
     <Compile Include="Day08_TwoFactorAuthentication.cs" />
     <Compile Include="Day09_Decompression.cs" />
+    <Compile Include="Day11_Radioisotope.cs" />
+    <Compile Include="Day12_Monorail.cs" />
+    <Compile Include="Day13_Maze.cs" />
     <Compile Include="Models\Directions.cs" />
     <Compile Include="Day01_StreetNavigation.cs" />
     <Compile Include="Models\Point.cs" />

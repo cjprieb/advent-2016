@@ -1,0 +1,360 @@
+!plGen, [thuGen, thuMchip], !proGen, [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+plMchip, proMchip
+
+
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+![plGen, plMchip], [proGen, proMchip]
+
+
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+[proGen, proMchip]
+[!plGen, plMchip]
+
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+plGen, [!proGen, proMchip]
+plMchip
+
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+proMchip
+!proGen, [plGen, plMchip]
+
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+![proGen, proMchip]
+[plGen, plMchip]
+
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+
+[plGen, plMchip], ![proGen, proMchip]
+
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+
+[plGen, plMchip],
+[!proGen, proMchip]
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+
+!proGen, [plGen, plMchip],
+proMchip
+===================================================================
+[thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+!proGen, 
+[plGen, plMchip],
+proMchip
+===================================================================
+proGen, ![thuGen, thuMchip], [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+
+[plGen, plMchip]
+proMchip
+===================================================================
+proGen, [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+[!thuGen, thuMchip]
+[plGen, plMchip]
+proMchip
+===================================================================
+!thuGen, !proGen, [ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip
+[plGen, plMchip]
+proMchip
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+[thuMchip, !thuGen], !proGen, 
+[plGen, plMchip]
+proMchip
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip
+[plGen, plMchip], !thuGen, !proGen, 
+proMchip
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip, 
+[plGen, plMchip]
+[proMchip, proGen], !thuGen
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip, 
+[!plGen, plMchip], !thuGen
+[proMchip, proGen]
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip, 
+plMchip
+[proMchip, proGen], thuGen, !plGen
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip, 
+![plMchip, plGen]
+[proMchip, proGen], thuGen
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip, 
+
+[proMchip, proGen], [plMchip, plGen], !thuGen
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+thuMchip, 
+!thuGen
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+![thuMchip, thuGen]
+
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+
+[thuMchip, !thuGen]
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip], [elGen, elMchip], [dilGen, dilMchip]
+!thuGen
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], ![coGen, coMchip], thuGen, [elGen, elMchip], [dilGen, dilMchip]
+
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], thuGen, [elGen, elMchip], [dilGen, dilMchip]
+[!coGen, coMchip], 
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], !coGen, !thuGen, [elGen, elMchip], [dilGen, dilMchip]
+coMchip, 
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+[coMchip, !coGen], !thuGen
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+coMchip, 
+[thuMchip, !thuGen], !coGen
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+coMchip, 
+[thuMchip
+[proMchip, proGen], [plMchip, plGen], !thuGen, coGen
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+coMchip, 
+![thuMchip, thuGen]
+[proMchip, proGen], [plMchip, plGen], coGen
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+coMchip, 
+
+[proMchip, proGen], [plMchip, plGen], !coGen, [thuMchip, thuGen]
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+coMchip, 
+!coGen, 
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+![coGen, coMchip]
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+
+[!coGen, coMchip]
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+[ruthGen, ruthMchip], [elGen, elMchip], [dilGen, dilMchip]
+!coGen, 
+[coMchip]
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+![ruthGen, ruthMchip], coGen, [elGen, elMchip], [dilGen, dilMchip]
+
+[coMchip]
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+coGen, [elGen, elMchip], [dilGen, dilMchip]
+[!ruthGen, ruthMchip]
+[coMchip]
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+!ruthGen, !coGen, [elGen, elMchip], [dilGen, dilMchip]
+ruthMchip
+coMchip
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+[elGen, elMchip], [dilGen, dilMchip]
+[!ruthGen, ruthMchip], !coGen, 
+coMchip
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+[elGen, elMchip], [dilGen, dilMchip]
+ruthMchip
+!ruthGen, [coMchip, !coGen], 
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+*_*_*_*_[elGen, elMchip], [dilGen, dilMchip]
+ruthMchip
+coMchip
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], ruthGen, !coGen
+===================================================================
+*&*&*&*[ruthGen, ruthMchip], [coGen, coMchip]
+thuMchip, 
+![plMchip, plGen]
+[proMchip, proGen], thuGen
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip]
+thuMchip, 
+
+[proMchip, proGen], [plMchip, plGen], !thuGen
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip]
+thuMchip, 
+!thuGen
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip]
+![thuMchip, thuGen]
+
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip]
+
+[thuMchip, !thuGen]
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], [coGen, coMchip]
+!thuGen
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], ![coGen, coMchip], thuGen
+
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], thuGen
+[!coGen, coMchip], 
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip], !coGen, !thuGen
+coMchip, 
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip]
+[coMchip, !coGen], !thuGen
+thuMchip
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip]
+coMchip, 
+[thuMchip, !thuGen], !coGen
+[proMchip, proGen], [plMchip, plGen]
+===================================================================
+[ruthGen, ruthMchip]
+coMchip, 
+[thuMchip
+[proMchip, proGen], [plMchip, plGen], !thuGen, coGen
+===================================================================
+[ruthGen, ruthMchip]
+coMchip, 
+![thuMchip, thuGen]
+[proMchip, proGen], [plMchip, plGen], coGen
+===================================================================
+[ruthGen, ruthMchip]
+coMchip, 
+
+[proMchip, proGen], [plMchip, plGen], !coGen, [thuMchip, thuGen]
+===================================================================
+[ruthGen, ruthMchip]
+coMchip, 
+!coGen, 
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+[ruthGen, ruthMchip]
+[!coGen, coMchip]
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+[!ruthGen, ruthMchip], !coGen
+coMchip
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+ruthMchip
+[coMchip, coGen], !ruthGen
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+![ruthGen, ruthMchip]
+[coMchip, coGen]
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+
+[!coMchip, coGen], [ruthGen, !ruthMchip]
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+
+coGen, ruthGen, 
+!coMchip, ruthMchip
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+
+[coMchip, !coGen], !ruthGen, 
+ruthMchip
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+
+coMchip
+!coGen, [!ruthGen, ruthMchip]
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen]
+===================================================================
+
+coMchip
+ruthMchip
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], coGen, !ruthGen,
+===================================================================
+
+coMchip
+![ruthMchip, ruthGen],
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], coGen
+===================================================================
+
+coMchip
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], !coGen, [ruthMchip, ruthGen]
+===================================================================
+
+coMchip
+!coGen, 
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], [ruthMchip, ruthGen]
+===================================================================
+
+![coGen, coMchip]
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], [ruthMchip, ruthGen]
+===================================================================
+
+
+![coGen, coMchip]
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], [ruthMchip, ruthGen]
+===================================================================
+
+
+
+[proMchip, proGen], [plMchip, plGen], [thuMchip, thuGen], [ruthMchip, ruthGen], ![coGen, coMchip]
+===================================================================
