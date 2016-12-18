@@ -8,8 +8,6 @@ namespace Advent
 {
     public class Day16_Dragon
     {
-        private static int _repeats;
-
         public static string ProcessDragonExtensionAsString(string input)
         {
             var result = ProcessDragonExtension(ConvertToList(input));

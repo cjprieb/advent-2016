@@ -351,5 +351,14 @@ namespace Tests.Properties {
                 return ResourceManager.GetString("Day15_Input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ^.^^^..^^...^.^..^^^^^.....^...^^^..^^^^.^^.^^^^^^^^.^^.^^^^...^^...^^^^.^.^..^^..^..^.^^.^.^........
+        /// </summary>
+        internal static string Day18_Input {
+            get {
+                return ResourceManager.GetString("Day18_Input", resourceCulture);
+            }
+        }
     }
 }
