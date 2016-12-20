@@ -60,6 +60,7 @@
     <Compile Include="Day16_Dragon.cs" />
     <Compile Include="Day17_TwoStepsForward.cs" />
     <Compile Include="Day18_Rogue.cs" />
+    <Compile Include="Day19_Elephant.cs" />
     <Compile Include="Models\Directions.cs" />
     <Compile Include="Day01_StreetNavigation.cs" />
     <Compile Include="Models\Point.cs" />
