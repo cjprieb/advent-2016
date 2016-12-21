@@ -360,5 +360,31 @@ namespace Tests.Properties {
                 return ResourceManager.GetString("Day18_Input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to move position 2 to position 1
+        ///move position 2 to position 5
+        ///move position 2 to position 4
+        ///swap position 0 with position 2
+        ///move position 6 to position 5
+        ///swap position 0 with position 4
+        ///reverse positions 1 through 6
+        ///move position 7 to position 2
+        ///rotate right 4 steps
+        ///rotate left 6 steps
+        ///rotate based on position of letter a
+        ///rotate based on position of letter c
+        ///move position 2 to position 0
+        ///swap letter d with letter a
+        ///swap letter g with letter a
+        ///rotate left 6 steps
+        ///reverse positions 4 through 7
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day21_Input {
+            get {
+                return ResourceManager.GetString("Day21_Input", resourceCulture);
+            }
+        }
     }
 }

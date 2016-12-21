@@ -30,7 +30,7 @@ namespace Advent.Tests
         public void Answer1_LowestUnblockedFirewall()
         {
             //Setup
-            string[] input = Resources.Day20_Input.Split('\n');
+            string[] input = Resources.Day21_Input.Split('\n');
             long max = 4294967295;
             long expected = 17348574;
 
@@ -60,7 +60,7 @@ namespace Advent.Tests
         public void Answer2_IpAddressesAllowed()
         {
             //Setup
-            string[] input = Resources.Day20_Input.Split('\n');
+            string[] input = Resources.Day21_Input.Split('\n');
             long max = 4294967295;
             long expected = 104;
 
