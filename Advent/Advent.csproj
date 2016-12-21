@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Day20_Firewall.cs" />
     <Compile Include="Day10_BalanceBots.cs" />
     <Compile Include="Day02_BathroomCode.cs" />
     <Compile Include="Day03_Triangles.cs" />
