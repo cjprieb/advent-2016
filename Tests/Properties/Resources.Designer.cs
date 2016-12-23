@@ -386,5 +386,61 @@ namespace Tests.Properties {
                 return ResourceManager.GetString("Day21_Input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to root@ebhq-gridcenter# df -h
+        ///Filesystem              Size  Used  Avail  Use%
+        ////dev/grid/node-x0-y0     94T   65T    29T   69%
+        ////dev/grid/node-x0-y1     88T   69T    19T   78%
+        ////dev/grid/node-x0-y2     92T   72T    20T   78%
+        ////dev/grid/node-x0-y3     93T   73T    20T   78%
+        ////dev/grid/node-x0-y4     85T   73T    12T   85%
+        ////dev/grid/node-x0-y5     94T   70T    24T   74%
+        ////dev/grid/node-x0-y6     93T   66T    27T   70%
+        ////dev/grid/node-x0-y7     90T   68T    22T   75%
+        ////dev/grid/node-x0-y8     87T   73T    14T  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day22_Input {
+            get {
+                return ResourceManager.GetString("Day22_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filesystem            Size  Used  Avail  Use%
+        ////dev/grid/node-x0-y0   10T    8T     2T   80%
+        ////dev/grid/node-x0-y1   11T    6T     5T   54%
+        ////dev/grid/node-x0-y2   32T   28T     4T   87%
+        ////dev/grid/node-x1-y0    9T    7T     2T   77%
+        ////dev/grid/node-x1-y1    8T    0T     8T    0%
+        ////dev/grid/node-x1-y2   11T    7T     4T   63%
+        ////dev/grid/node-x2-y0   10T    6T     4T   60%
+        ////dev/grid/node-x2-y1    9T    8T     1T   88%
+        ////dev/grid/node-x2-y2    9T    6T     3T   66%.
+        /// </summary>
+        internal static string Day22_Part2 {
+            get {
+                return ResourceManager.GetString("Day22_Part2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to root@ebhq-gridcenter# df -h
+        ///Filesystem              Size  Used  Avail  Use%
+        ////dev/grid/node-x0-y0     94T   65T    29T   69%
+        ////dev/grid/node-x0-y1     88T   69T    19T   78%
+        ////dev/grid/node-x0-y2     92T   72T    20T   78%
+        ////dev/grid/node-x0-y3     93T   73T    20T   78%
+        ////dev/grid/node-x0-y4     85T   73T    12T   85%
+        ////dev/grid/node-x1-y0     94T   66T    28T   70%
+        ////dev/grid/node-x1-y1     88T   20T    68T   23%
+        ////dev/grid/node-x1-y2     93T   64T    29T   68%
+        ////dev/grid/node-x1-y3     85T   70T    15T  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day22_TestInput {
+            get {
+                return ResourceManager.GetString("Day22_TestInput", resourceCulture);
+            }
+        }
     }
 }

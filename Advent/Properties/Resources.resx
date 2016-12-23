@@ -118,58 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Day01_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day01_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day02_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day02_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day03_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day03_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day04_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day04_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day06_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day06_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day07_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day07_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day08_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day08_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day09_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day09_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day10_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day10_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day11_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day11_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day11_TestInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day11_TestInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day12_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day12_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day15_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day15_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day18_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day18_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day21_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day21_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
   <data name="Day22_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Day22_Input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day22_Part2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day22_Part2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Day22_TestInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Day22_TestInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
 </root>
