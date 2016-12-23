@@ -74,6 +74,7 @@
     <Compile Include="Day20_FirewallTests.cs" />
     <Compile Include="Day21_ScramblingTests.cs" />
     <Compile Include="Day22_GridComputingTests.cs" />
+    <Compile Include="Day23_SafeCrackingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -146,6 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Day22_Part2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Day23_Input.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

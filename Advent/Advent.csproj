@@ -64,6 +64,7 @@
     <Compile Include="Day19_Elephant.cs" />
     <Compile Include="Day21_Scrambling.cs" />
     <Compile Include="Day22_GridComputing.cs" />
+    <Compile Include="Day23_SafeCracking.cs" />
     <Compile Include="Models\Directions.cs" />
     <Compile Include="Day01_StreetNavigation.cs" />
     <Compile Include="Models\Point.cs" />
