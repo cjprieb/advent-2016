@@ -65,6 +65,7 @@
     <Compile Include="Day21_Scrambling.cs" />
     <Compile Include="Day22_GridComputing.cs" />
     <Compile Include="Day23_SafeCracking.cs" />
+    <Compile Include="Day24_AirDuct.cs" />
     <Compile Include="Models\Directions.cs" />
     <Compile Include="Day01_StreetNavigation.cs" />
     <Compile Include="Models\Point.cs" />
