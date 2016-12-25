@@ -18,9 +18,16 @@ namespace Advent
     public class AssemBunny
     {
         private Registers _Registers;
+        private List<int> _TransmittedValues = new List<int>();
 
         private int _CurrentInstructionIndex = 0;
+        private readonly int _MaxTransmitted;
+
         public List<AssemBunnyInstruction> Instructions { get; private set; }
+        public IEnumerable<int> TransmittedValues
+        {
+            get { return _TransmittedValues; }
+        }
 
         public Registers Registers
         {
@@ -30,9 +37,10 @@ namespace Advent
             }
         }
 
-        public AssemBunny(Dictionary<char, int> startingValues)
+        public AssemBunny(Dictionary<char, int> startingValues, int maxTransmitted = -1)
         {
             _Registers = new Registers(startingValues);
+            _MaxTransmitted = maxTransmitted;
             Instructions = new List<AssemBunnyInstruction>();
         }
 
@@ -46,6 +54,10 @@ namespace Advent
                 var instruction = Instructions[_CurrentInstructionIndex];
                 instruction.Run(this);
                 _CurrentInstructionIndex++;
+                if (_MaxTransmitted > 0 && _TransmittedValues.Count > _MaxTransmitted)
+                {
+                    break;
+                }
             }
         }
 
@@ -109,6 +121,26 @@ namespace Advent
         public void Increase(string registerString)
         {
             _Registers[registerString]++;
+        }
+
+        public void Out(string valueString)
+        {
+            int value;
+
+            if (_Registers.IsValidRegister(valueString))
+            {
+                char register = valueString[0];
+                value = _Registers[register];
+                _TransmittedValues.Add(value);
+            }
+            else if (int.TryParse(valueString, out value))
+            {
+                _TransmittedValues.Add(value);
+            }
+            else
+            {
+                throw new Exception($"Expected {valueString} to be a valid register or integer");
+            }
         }
 
         public override string ToString()
@@ -175,7 +207,10 @@ namespace Advent
         {
             get
             {
-                return Instruction.Equals("inc") || Instruction.Equals("dec") || Instruction.Equals("tgl");
+                return Instruction.Equals("inc") ||
+                    Instruction.Equals("dec") ||
+                    Instruction.Equals("tgl") ||
+                    Instruction.Equals("out");
             }
         }
 
@@ -183,7 +218,8 @@ namespace Advent
         {
             get
             {
-                return Instruction.Equals("jnz") || Instruction.Equals("cpy");
+                return Instruction.Equals("jnz") || 
+                    Instruction.Equals("cpy");
             }
         }
 
@@ -234,6 +270,10 @@ namespace Advent
 
                 case "tgl":
                     computer.Toggle(ArgumentOne);
+                    break;
+
+                case "out":
+                    computer.Out(ArgumentOne);
                     break;
 
                 default:

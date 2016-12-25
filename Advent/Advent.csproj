@@ -66,6 +66,7 @@
     <Compile Include="Day22_GridComputing.cs" />
     <Compile Include="Day23_SafeCracking.cs" />
     <Compile Include="Day24_AirDuct.cs" />
+    <Compile Include="Day25_ClockSignal.cs" />
     <Compile Include="Models\Directions.cs" />
     <Compile Include="Day01_StreetNavigation.cs" />
     <Compile Include="Models\Point.cs" />
@@ -88,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Day22_Input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Day25_Input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
