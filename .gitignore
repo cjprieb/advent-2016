@@ -28,3 +28,4 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 /.vs/Advent/v15/Server/sqlite3
+/packages
