@@ -85,7 +85,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Advent\Advent.csproj">
+    <ProjectReference Include="..\Advent2016\Advent2016.csproj">
       <Project>{8D87395C-80C2-4EDB-83B7-A28E68D68838}</Project>
       <Name>Advent</Name>
     </ProjectReference>
