@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Advent2017", "Advent2017\Ad
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Advent2017Tests", "Advent2017Tests\Advent2017Tests.fsproj", "{1ADF75B3-FC86-4E30-A39B-60AEA26E6183}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tutorial1", "Tutorial1\Tutorial1.fsproj", "{7C90F085-DD96-4153-8790-F3C140BA187C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1ADF75B3-FC86-4E30-A39B-60AEA26E6183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADF75B3-FC86-4E30-A39B-60AEA26E6183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADF75B3-FC86-4E30-A39B-60AEA26E6183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C90F085-DD96-4153-8790-F3C140BA187C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C90F085-DD96-4153-8790-F3C140BA187C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C90F085-DD96-4153-8790-F3C140BA187C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C90F085-DD96-4153-8790-F3C140BA187C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

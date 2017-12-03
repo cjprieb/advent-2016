@@ -54,6 +54,7 @@
     <Compile Include="Day01_Captcha.fs" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
+    <Compile Include="Day02_Spreadsheet.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
