@@ -22,11 +22,8 @@ type Day01_Tests() =
 
     [<Test>]
     member this.Answer1() =
-        // TODO: move to common location for use by other tests.
-        let dir = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments)
-        let path = System.IO.Path.Combine(dir, "Visual Studio 2017", "Projects", "Advent", "Advent2017", "Resources", "Day02.txt")
-        let input = System.IO.File.ReadAllLines(path)
-        Test1 [for line in input -> line.Trim()] 41919
+        let input = TestResources.ReadAllLines "Day02.txt"
+        Test1 input 41919
         
     [<Test>]
     member this.Test2_3_Rows() = 
@@ -34,8 +31,5 @@ type Day01_Tests() =
 
     [<Test>]
     member this.Answer2() =
-        // TODO: move to common location for use by other tests.
-        let dir = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments)
-        let path = System.IO.Path.Combine(dir, "Visual Studio 2017", "Projects", "Advent", "Advent2017", "Resources", "Day02.txt")
-        let input = System.IO.File.ReadAllLines(path)
-        Test2 [for line in input -> line.Trim()] 303
+        let input = TestResources.ReadAllLines "Day02.txt"
+        Test2 input 303

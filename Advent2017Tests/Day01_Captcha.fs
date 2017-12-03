@@ -34,11 +34,8 @@ type Day01_Tests() =
 
     [<Test>]
     member this.Answer1() =
-        // TODO: move to common location for use by other tests.
-        let dir = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments)
-        let path = System.IO.Path.Combine(dir, "Visual Studio 2017", "Projects", "Advent", "Advent2017", "Resources", "Day01.txt")
-        let input = System.IO.File.ReadAllText(path)
-        Test1 input 1102
+        let input = TestResources.ReadAllLines "Day01.txt"
+        Test1 input.[0] 1102
             
     //1212 produces 6: the list contains 4 items, and all four digits match the digit 2 items ahead.
     //1221 produces 0, because every comparison is between a 1 and a 2.
@@ -63,9 +60,6 @@ type Day01_Tests() =
 
     [<Test>]
     member this.Answer2() =
-        // TODO: move to common location for use by other tests.
-        let dir = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments)
-        let path = System.IO.Path.Combine(dir, "Visual Studio 2017", "Projects", "Advent", "Advent2017", "Resources", "Day01.txt")
-        let input = System.IO.File.ReadAllText(path)
-        Test2 input 1076
+        let input = TestResources.ReadAllLines "Day01.txt"
+        Test2 input.[0] 1076
 
