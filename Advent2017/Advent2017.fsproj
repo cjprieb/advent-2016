@@ -52,11 +52,14 @@
   <ItemGroup>
     <Content Include="Resources\Day01.txt" />
     <Content Include="Resources\Day02.txt" />
+    <Content Include="Resources\Day04.txt" />
     <Content Include="packages.config" />
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="TestResources.fs" />
     <Compile Include="Day01_Captcha.fs" />
     <Compile Include="Day02_Spreadsheet.fs" />
     <Compile Include="Day03_SpiralMemory.fs" />
+    <Compile Include="Day04_Passphrase.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
