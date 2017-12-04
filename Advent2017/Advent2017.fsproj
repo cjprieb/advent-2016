@@ -50,13 +50,13 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Day01_Captcha.fs" />
-    <None Include="Script.fsx" />
-    <Content Include="packages.config" />
     <Content Include="Resources\Day01.txt" />
     <Content Include="Resources\Day02.txt" />
+    <Content Include="packages.config" />
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Day01_Captcha.fs" />
     <Compile Include="Day02_Spreadsheet.fs" />
+    <Compile Include="Day03_SpiralMemory.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

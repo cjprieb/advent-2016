@@ -55,6 +55,7 @@
     <Compile Include="TestResources.fs" />
     <Compile Include="Day01_Captcha.fs" />
     <Compile Include="Day02_Spreadsheet.fs" />
+    <Compile Include="Day03_SpiralMemory_Tests.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

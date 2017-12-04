@@ -4,7 +4,7 @@ open Advent2017
 open NUnit.Framework
 
 [<TestFixture>]
-type Day01_Tests() = 
+type Day02_Spreadsheet_Tests() = 
 
     let Test1 input expected =
         let actual = Day02_Spreadsheet.CalculateChecksum input
