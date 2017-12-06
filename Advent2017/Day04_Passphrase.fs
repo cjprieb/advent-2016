@@ -1,5 +1,9 @@
 ﻿module Day04_Passphrase
     type IsPassphraseValid = Valid | Invalid
+    let toBool = 
+        function
+        | Valid -> true
+        | Invalid -> false
 
     let testCases1 = [
         "aa bb cc dd ee", Valid
@@ -54,13 +58,13 @@
     let answer1test = 
         let numberOfValidPassphrases = 
             TestResources.ReadAllLines "Day04.txt"
-            |> List.filter (fun line -> match (isPassphraseValid line) with | Valid -> true | Invalid -> false)
+            |> List.filter (fun line -> (isPassphraseValid line) |> toBool)
             |> List.length
         printfn "%i passphrases are valid" numberOfValidPassphrases
     
     let answer2test = 
         let numberOfValidPassphrases = 
             TestResources.ReadAllLines "Day04.txt"
-            |> List.filter (fun line -> match (isPassphraseValid_v2 line) with | Valid -> true | Invalid -> false)
+            |> List.filter (fun line -> (isPassphraseValid_v2 line) |> toBool)
             |> List.length
         printfn "%i passphrases are valid" numberOfValidPassphrases
