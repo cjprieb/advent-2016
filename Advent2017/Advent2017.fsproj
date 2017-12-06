@@ -62,6 +62,8 @@
     <Compile Include="Day04_Passphrase.fs" />
     <Compile Include="Day05_Jumps.fs" />
     <Compile Include="Day05_Input.fs" />
+    <Compile Include="Day06_MemoryReallocation.fs" />
+    <Compile Include="Day06_Input.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
