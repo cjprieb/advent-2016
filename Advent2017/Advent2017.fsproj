@@ -60,6 +60,8 @@
     <Compile Include="Day02_Spreadsheet.fs" />
     <Compile Include="Day03_SpiralMemory.fs" />
     <Compile Include="Day04_Passphrase.fs" />
+    <Compile Include="Day05_Jumps.fs" />
+    <Compile Include="Day05_Input.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
