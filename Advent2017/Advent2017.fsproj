@@ -53,6 +53,7 @@
     <Content Include="Resources\Day01.txt" />
     <Content Include="Resources\Day02.txt" />
     <Content Include="Resources\Day04.txt" />
+    <Content Include="Resources\Day09.txt" />
     <Content Include="packages.config" />
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="TestResources.fs" />
@@ -64,6 +65,8 @@
     <Compile Include="Day05_Input.fs" />
     <Compile Include="Day06_MemoryReallocation.fs" />
     <Compile Include="Day06_Input.fs" />
+    <Compile Include="Day08_Registers.fs" />
+    <Compile Include="Day09_GarbageCollection.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
