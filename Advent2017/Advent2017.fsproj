@@ -67,6 +67,7 @@
     <Compile Include="Day06_Input.fs" />
     <Compile Include="Day08_Registers.fs" />
     <Compile Include="Day09_GarbageCollection.fs" />
+    <Compile Include="Day10_Knots.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
