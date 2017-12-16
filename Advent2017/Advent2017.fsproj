@@ -68,10 +68,12 @@
     <Compile Include="Day06_Input.fs" />
     <Compile Include="Day08_Registers.fs" />
     <Compile Include="Day09_GarbageCollection.fs" />
-    <Compile Include="Day10_Knots.fs" />
+    <None Include="Day10_Knots.fsx" />
     <Compile Include="Day12_DigitalPlumber.fs" />
     <Compile Include="Day07_Towers.fs" />
     <Compile Include="Day11_Hexagons.fs" />
+    <None Include="Day13_PacketScanners.fsx" />
+    <None Include="Day14_DiskDefragmentation.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

@@ -1,6 +1,4 @@
-﻿//module Day10_Knots
-
-type State = {circle:int list;position:int;skip:int}
+﻿type State = {circle:int list;position:int;skip:int}
 
 let tieKnot (item:State) knotLength =
     let circle = item.circle
@@ -81,6 +79,20 @@ let testTieKnot (state,length,expected) =
     let wrappedMethod = processInstruction state
     test wrappedMethod expected length
 
+module Knot =
+    let hash input = 
+        let lengths = [17;31;73;47;23] |> List.append (input |> toAsciiList)
+        let circle = [0..255] 
+        let endState = 
+            [1..64]
+            |> List.fold (fun state i ->
+                lengths 
+                |> List.fold processInstruction state
+            ) {circle=circle;position=0;skip=0} 
+
+        endState.circle
+        |> denseHash
+
 let answer1 = //54675
     let circle = [0..255]
     let lengths = [34;88;2;222;254;93;150;0;199;255;39;32;137;136;1;167]
@@ -89,24 +101,26 @@ let answer1 = //54675
     |> List.take 2
     |> List.reduce (*)
 
-let answer2 = //54675
-    let circle = [0..255]
-    let lengths = 
-        [17;31;73;47;23]
-        |> List.append (
-            "34,88,2,222,254,93,150,0,199,255,39,32,137,136,1,167" 
-            |> toAsciiList
-        )
+let answer2 = //a7af2706aa9a09cf5d848c1e6605dd2a
+    let input = "34,88,2,222,254,93,150,0,199,255,39,32,137,136,1,167"
+    Knot.hash input 
+    //let circle = [0..255]
+    //let lengths = 
+    //    [17;31;73;47;23]
+    //    |> List.append (
+    //        "34,88,2,222,254,93,150,0,199,255,39,32,137,136,1,167" 
+    //        |> toAsciiList
+    //    )
 
-    let endState = 
-        [1..64]
-        |> List.fold (fun state i ->
-            lengths 
-            |> List.fold processInstruction state
-        ) {circle=circle;position=0;skip=0} 
+    //let endState = 
+    //    [1..64]
+    //    |> List.fold (fun state i ->
+    //        lengths 
+    //        |> List.fold processInstruction state
+    //    ) {circle=circle;position=0;skip=0} 
 
-    endState.circle
-    |> denseHash
+    //endState.circle
+    //|> denseHash
 
 // testTieKnot testInput.[0];;
 // processInstructions testCircle testLengths;;
