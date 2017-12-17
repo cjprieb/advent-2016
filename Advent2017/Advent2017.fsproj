@@ -75,6 +75,7 @@
     <None Include="Day13_PacketScanners.fsx" />
     <None Include="Day14_DiskDefragmentation.fsx" />
     <None Include="Day15_Generators.fsx" />
+    <None Include="Day17_Spinlock.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
