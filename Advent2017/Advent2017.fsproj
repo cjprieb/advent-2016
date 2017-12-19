@@ -55,6 +55,7 @@
     <Content Include="Resources\Day04.txt" />
     <Content Include="Resources\Day09.txt" />
     <Content Include="Resources\Day12.txt" />
+    <Content Include="Resources\Day19.txt" />
     <Content Include="packages.config" />
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="TestResources.fs" />
@@ -69,13 +70,17 @@
     <Compile Include="Day08_Registers.fs" />
     <Compile Include="Day09_GarbageCollection.fs" />
     <None Include="Day10_Knots.fsx" />
-    <Compile Include="Day12_DigitalPlumber.fs" />
     <Compile Include="Day07_Towers.fs" />
     <Compile Include="Day11_Hexagons.fs" />
+    <Compile Include="Day12_DigitalPlumber.fs" />
     <None Include="Day13_PacketScanners.fsx" />
     <None Include="Day14_DiskDefragmentation.fsx" />
     <None Include="Day15_Generators.fsx" />
+    <None Include="Day16_Promenade.fsx" />
     <None Include="Day17_Spinlock.fsx" />
+    <None Include="Day18_Duet.fsx" />
+    <None Include="Day18_Duet_v2.fsx" />
+    <None Include="Day19_LostPacket.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
