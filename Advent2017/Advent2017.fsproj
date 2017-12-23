@@ -57,6 +57,7 @@
     <Content Include="Resources\Day12.txt" />
     <Content Include="Resources\Day19.txt" />
     <Content Include="Resources\Day20.txt" />
+    <Content Include="Resources\Day22.txt" />
     <Content Include="packages.config" />
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="TestResources.fs" />
@@ -83,6 +84,9 @@
     <None Include="Day18_Duet_v2.fsx" />
     <None Include="Day19_LostPacket.fsx" />
     <None Include="Day20_ParticleSwarm.fsx" />
+    <None Include="Day21_FractalArt.fsx" />
+    <None Include="Day22_SporificaVirus.fsx" />
+    <None Include="Day22_SporificaVirus_Part2.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
