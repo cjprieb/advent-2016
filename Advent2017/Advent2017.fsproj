@@ -58,6 +58,7 @@
     <Content Include="Resources\Day19.txt" />
     <Content Include="Resources\Day20.txt" />
     <Content Include="Resources\Day22.txt" />
+    <Content Include="Resources\Day24.txt" />
     <Content Include="packages.config" />
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="TestResources.fs" />
@@ -87,6 +88,9 @@
     <None Include="Day21_FractalArt.fsx" />
     <None Include="Day22_SporificaVirus.fsx" />
     <None Include="Day22_SporificaVirus_Part2.fsx" />
+    <None Include="Day23_Coprocessor.fsx" />
+    <None Include="Day24_Bridges.fsx" />
+    <None Include="Day25_Turing.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
