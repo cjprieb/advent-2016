@@ -14,6 +14,7 @@ let sample = [
 ]
 
 type Step = Step of string
+
 type Requirement = {
     prerequisite:Step
     forStep:Step
