@@ -1,5 +1,6 @@
 open System.IO
 open System.Text.RegularExpressions
+open System.Diagnostics
 #load "TestResources.fs"
 
 let input = TestResources.ReadAllLines("Day10.txt")
@@ -52,10 +53,13 @@ let contains (x,y) stars =
 let print bounds stars =
     let yRange = [bounds.top..bounds.bottom]
     let xRange = [bounds.left..bounds.right]
+    let starMap = 
+        stars
+        |> Seq.fold (fun map star -> Map.add (star.position.x,star.position.y) 1 map) Map.empty 
     // printfn "Y: %A to %A; X: %A to %A" bounds.top bounds.bottom bounds.left bounds.right
     yRange
     |> List.iter(fun y ->
-        let s = xRange |> List.fold (fun l x -> l + (if (contains (x,y) stars) then "#" else " ")) ""
+        let s = xRange |> List.fold (fun l x -> l + (if (Map.containsKey (x,y) starMap) then "#" else " ")) ""
         printfn "%s" s
     )  
     printfn ""
@@ -101,6 +105,12 @@ let advanceTo second stars =
 
 
 // Answer: LKPHZHHJ after 10159 seconds
-let solve1 input = advanceMany 0 0 (toStars input) |> ignore
+// took 87 millisconds with scaling increments
+// took ? milliseconds with 1-second increments
+let solve1 input = 
+    let stopwatch = Stopwatch.StartNew()
+    advanceMany 0 0 (toStars input) |> ignore
+    stopwatch.Stop();
+    printfn "Solution took %d ms" stopwatch.ElapsedMilliseconds
 
 //let x = solve1 input;;
