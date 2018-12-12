@@ -9,18 +9,6 @@ type Point = {
     nearest:NearestType
 }
 
-let getEdges coordinates =
-    let top = List.minBy (fun a -> a.y) coordinates
-    let left = List.minBy (fun a -> a.x) coordinates
-    let bottom = List.maxBy (fun a -> a.y) coordinates
-    let right = List.maxBy (fun a -> a.x) coordinates
-    (top.y,left.x,bottom.y,right.x)
-
-let getCenter (top,left,bottom,right) = 
-    let x = top + ((bottom - top) / 2)
-    let y = left + ((right - left) / 2)
-    {x=x;y=y}
-
 let input = 
     [
         (336, 308)
@@ -94,12 +82,28 @@ let sample2 =
         (15,15)
     ]
 
+let getEdges coordinates =
+    let top = List.minBy (fun a -> a.y) coordinates
+    let left = List.minBy (fun a -> a.x) coordinates
+    let bottom = List.maxBy (fun a -> a.y) coordinates
+    let right = List.maxBy (fun a -> a.x) coordinates
+    (top.y,left.x,bottom.y,right.x)
+
+let getCenter (top,left,bottom,right) = 
+    let y = top + ((bottom - top) / 2)
+    let x = left + ((right - left) / 2)
+    {x=x;y=y}
+
 let distance a b = System.Math.Abs(a.x - b.x) + System.Math.Abs(a.y - b.y)
 
 let getNearest a coordinates =
-    let distances = coordinates |> List.map (fun b -> (b,distance a b))
-    let (minCoord,minDistance) = List.minBy (fun (_,d) -> d) distances
-    if (List.length (List.filter (fun (_,d) -> d = minDistance) distances) > 1) then
+    let distances = 
+        coordinates 
+        |> List.map (fun b -> (b,distance a b)) 
+        |> List.sortBy (fun (_,d) -> d)
+    let (minCoord,minDistance) = distances.[0]
+    let nearestCoords = List.takeWhile (fun (_,d) -> d = minDistance) distances
+    if (List.length nearestCoords) > 1 then
         None
     else
         Some minCoord
@@ -159,7 +163,8 @@ let buildMap input =
                         {point=a;id=None;nearest=Id id}
                 Map.add a point map'
         ) map
-    let endMap = [0..center.x] |> List.fold (fun map' i -> reduce i map') coordinateMap
+    let max = List.max [center.x;center.y]
+    let endMap = [0..max] |> List.fold (fun map' i -> reduce i map') coordinateMap
     (coordinateIdMap,endMap,edges)
 
 let getPointsWithInfiniteArea (map:Map<Coord,Point>) (left,top,bottom,right) =
@@ -185,11 +190,31 @@ let getPointsWithInfiniteArea (map:Map<Coord,Point>) (left,top,bottom,right) =
     )
     |> List.distinct
 
+let letters = '0'::List.append ['a'..'z'] ['A'..'Z']
+
+let print pt =    
+    match pt.id,pt.nearest with 
+    | (Some _,_) -> '*'
+    | (_,Id id2) -> letters.[id2]
+    | (_) -> '.'
+
 let solve1 input =
     let (coordinates,map,edges) = buildMap input
     // map |> Map.map (fun key value -> printfn "    (%A,%A); Nearest: %A" key.x key.y value.nearest) |> ignore
+    let (top,left,bottom,right) = edges
+    [left..right] 
+    |> List.map (fun x -> 
+        printfn ""
+        [top..bottom] |> List.map (fun y -> 
+            let pt = map.[{x=x;y=y}]
+            printf "%c" (print pt)
+        )
+    )
+    |> ignore
+    printfn ""
+    
     let infiniteAreas = getPointsWithInfiniteArea map edges
-    printfn "Infinite areas: %A" infiniteAreas
+    printfn "Infinite areas: %A" (infiniteAreas |> List.map(fun id -> letters.[id]))
     let (coord,max) =
         coordinates
         |> Map.map (fun _ id ->
@@ -203,11 +228,20 @@ let solve1 input =
         )
         |> Map.toList
         |> List.maxBy (fun (a,area) -> 
-            // printfn "    Coordinate: (%A,%A); Size: %A" a.x a.y area
+            let ch = letters.[coordinates.[a]]
+            printfn "    Coordinate %c: (%A,%A); Size: %A" ch a.x a.y area
             area
         )
-    printfn "MAX - Coordinate: (%A,%A); Size: %A" coord.x coord.y max    
+    let maxId = letters.[coordinates.[coord]]
+    printfn "MAX - Coordinate %A: (%A,%A); Size: %A" maxId coord.x coord.y max
+    if (49327 = max) then printfn "Success!" else printfn "Fail! Expected 49327, but found %A" max
     
 // Center: (207,199); Edges: (67, 46, 348, 352)
 // Infinite areas: [20; 9; 3; 5; 35; 1; 46; 25; 49; 31; 32; 16; 15; 37; 29; 11; 44; 42; 36; 22; 7]
-// MAX - Coordinate: (270,225); Size: 2832
+// MAX - Coordinate G: (270,225); Size: 2832 // too low
+
+// Center: (207,199); Edges: (67, 46, 348, 352)
+// Infinite areas: [20; 9; 3; 5; 35; 1; 46; 25; 49; 31; 32; 16; 15; 37; 29; 11; 44; 42; 36; 22; 7]
+// MAX - Coordinate z: (50,180); Size: 5323 // too high
+
+// Coordinate (103,301): 3401
